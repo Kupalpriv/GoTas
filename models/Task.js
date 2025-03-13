@@ -1,4 +1,4 @@
-ort mongoose from 'mongoose';
+import mongoose from 'mongoose';
 
 const TaskSchema = new mongoose.Schema({
   title: String,
