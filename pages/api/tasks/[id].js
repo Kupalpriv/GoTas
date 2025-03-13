@@ -1,4 +1,4 @@
-port connectDB from '../../../lib/mongodb';
+import connectDB from '../../../lib/mongodb';
 import Task from '../../../models/Task';
 
 export default async function handler(req, res) {
